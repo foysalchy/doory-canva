@@ -1,6 +1,4 @@
 # Secrets — never commit
-.env
-.env.*
 !.env.example
 *credentials*.json
 *service-account*.json
@@ -28,6 +26,6 @@ frontend/test-results/
 
 # Editors / OS
 .idea/
-.vscode/
 .DS_Store
 *.log
+config.bat
